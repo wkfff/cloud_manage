@@ -1,0 +1,33 @@
+.el-main {
+  padding: 0 !important;
+}
+
+.el-menu--popup-right-start{
+  background-color: $menuDefaultBg !important;
+}
+
+.el-menu-item, .el-submenu__title{
+  color: $menuFontCheckedColor !important;
+  font-size: 15px;
+  &:hover {
+    background-color: $menuHoverBg !important;
+    color: $menuFontCheckedColor !important;
+  }
+  &:focus {
+    background-color: $menuHoverBg !important;
+    color: $menuFontCheckedColor !important;
+  }
+}
+
+.el-badge__content.is-fixed{
+  top: 20px;
+}
+
+.el-submenu__title .el-icon-arrow-down:before{
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: '\e62a'!important;
+}

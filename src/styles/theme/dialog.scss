@@ -1,0 +1,29 @@
+/**
+ * @author:  lzc
+ * @date:    2018-12-06
+ * @desc:    dialog样式
+ */
+.el-dialog__header{
+  // border-bottom: 1px solid #ccc;
+  padding: 15px 20px;
+  padding-top: 16px;
+  text-align: center  ;
+}
+.el-dialog__body{
+  padding: 20px;
+  max-height: 660px;
+  overflow-y: auto;
+}
+.pdt0 .el-dialog__body{
+  padding-top: 0;
+}
+.pdb0 .el-dialog__body{
+  padding-bottom: 0;
+}
+
+.el-dialog__footer{
+  padding-top: 0;
+}
+.dialog-footer{
+  text-align: center;
+}

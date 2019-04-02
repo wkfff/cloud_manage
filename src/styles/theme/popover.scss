@@ -1,0 +1,13 @@
+/**
+ * @author:  lzc
+ * @date:    2018-12-08
+ * @desc:    popover样式
+ */
+.el-popover{
+  &.popper-box{
+    padding: 0;
+  }
+  &.min{
+    min-width: auto;
+  }
+}

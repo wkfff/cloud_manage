@@ -1,0 +1,109 @@
+// 表头
+.el-table--medium th {
+  background-color: #EAEDF1;
+  color: #424754;
+  font-size: 14px;
+  font-weight: 500;
+  height: 55px;
+}
+
+// 单元格
+.el-table--medium td {
+  height: 43px;
+  color: #424754;
+  font-size: 14px;
+  .el-button--text {
+    font-size: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 0;
+  }
+  .el-button--text:first-child {
+    padding-left: 0px;
+  }
+}
+
+.el-table td div,
+.el-table td span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.el-table th div,
+.el-table th > .cell {
+  min-width: 50px;
+  line-height: 1;
+}
+
+.el-table td .handle-column {
+  .text-active,
+  .text-success,
+  .text-info,
+  .text-warn,
+  .text-error {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5px;
+    line-height: 1;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+  }
+  .el-button--text:first-child{
+    padding-left: 0;
+  }
+}
+
+// checkbox
+.el-table-column--selection .cell {
+  text-align: center;
+}
+
+.el-checkbox__input.is-disabled {
+  cursor: default;
+}
+
+.el-checkbox.is-disabled {
+  cursor: default;
+}
+
+// 斑马线颜色
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: #F9FAFD;
+}
+
+// hover颜色
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #E6F7FF;
+}
+
+// border线颜色
+.el-table td, .el-table th.is-leaf {
+  border-bottom: 1px solid #EAEDF1;
+}
+
+// 升序图标颜色
+.el-table .ascending .sort-caret.ascending {
+  border-bottom-color: #4A8DF0;
+}
+
+// 降序图标颜色
+.el-table .descending .sort-caret.descending {
+  border-top-color: #4A8DF0;
+}
+
+// 下拉选择
+.el-popper[x-placement^=bottom] {
+  margin-top: 8px;
+}
+
+.el-dropdown-menu--medium {
+  padding-bottom: 0;
+}
+
+// tooltip 宽度
+.el-tooltip__popper {
+  max-width: 480px;
+  line-height: 180%;
+}

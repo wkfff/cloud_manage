@@ -1,0 +1,49 @@
+//sidebar
+$boderColor: #e6e6e6;
+$stepWaitColor: #c0c4cc;
+
+$textRunning:#4A8DF0;                           // 状态（字体）颜色 标准
+$textSuccess:#2FC25B;                           // 状态（字体）颜色 成功
+$textError:#FB6041;                             // 状态（字体）颜色 失败
+$textWarn:#E6A23C;                              // 状态（字体）颜色 警告
+$textInfo:#909399;                              // 状态（字体）颜色 未执行
+$textNone: #ffffff;                             // 状态（字体）颜色 没有
+
+$textLevelA: #303133;                           // 重点文字颜色
+$textLevelB: #424754;                           // 常规文字颜色
+$textLevelC: #777E8C;                           // 次要文字颜色
+$textLevelD: #AFBACB;                           // 占位文字颜色
+
+$textNewNormal: #444444;                        // 正常文字颜色
+$textNewDisabled: #777E8C;                      // 禁用文字颜色
+$textNewChecked: #4A8DF0;                       // 选中文字颜色
+
+$menuDefaultBg: #243045;                        // 菜单默认背景色(子父同色)
+$menuCheckedBg: #4A8DF0;                        // 菜单选中背景色(子父同色)
+$menuHoverBg: #2D4063;                          // 菜单悬浮背景色
+
+$menuFontDefaultColor: #AFBACB;               // 菜单文字/图标颜色 (默认：透明度50%)
+$menuFontCheckedColor: #ffffff;                 // 菜单文字/图标颜色 (选中：透明度0%,粗体)
+$numberFontDefaultColor: #CCCCCC;                 // 智能看板的数字颜色
+
+$htmlBg: #F0F2F7;                               // 整个页面的背景颜色
+$appMainBg: #FFFFFF;                            // 整个页面的背景颜色
+$btnDisabledBg: #F6F6F6;                        // 控件不可用背景色/不可用按钮背景色
+$dividerColor: #EAEDF1;                         // 表格内容分隔线/默认分隔线/控件默认边框线/默认按钮边框线/清空按钮常规底色
+$tableDefaultBg: #F9FAFD;                       // 表格斑马背景色
+$tableHoverBg: #E6F7FF;                         // 表格表行悬停背景色
+$tooltipBg: #384A67;                            // 消息提示框底色
+$borderColor: #D3D8DF;                          // 边框颜色
+
+$itemDisabledBg: #F2F5F9;                       // 禁用的工单选项背景颜色
+
+
+$textSizeA: 24px;                                 // 文章正标题
+$textSizeB: 18px;                                 // 强调标题
+$textSizeC: 16px;                                 // 弹出框标题/表格标题
+$textSizeD: 14px;                                 // 默认字号/页签/表格内文字/顶栏/详情页正文/选项卡
+$textSizeE: 13px;                                 // 特定场景使用
+$textSizeF: 12px;                                 // 线性按钮文字/备注文字
+
+$loginModalLeft: #253045;                       // 登录页左侧背景颜色
+$loginModalRight: #FFFFFF;                      // 登录页右侧背景颜色

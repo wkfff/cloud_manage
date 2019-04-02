@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>img_男士头像</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="60" cy="60" r="60"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1720.000000, -180.000000)">
+            <g id="img_男士头像" transform="translate(1720.000000, 180.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill-opacity="0.4" fill="#CEE2FF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect id="矩形" fill="#777E8C" fill-rule="nonzero" mask="url(#mask-2)" x="24" y="79.5" width="72" height="61.5" rx="30.75"></rect>
+                <g id="分组" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(36.750000, 25.500000)">
+                        <path d="M42.8916778,58.1360955 C38.5119274,55.7624152 33.598276,54.5 28.5,54.5 L18,54.5 C12.901724,54.5 7.98807258,55.7624152 3.60832219,58.1360955 L23.25,87.5986122 L42.8916778,58.1360955 Z" id="合并形状" stroke="#777E8C" stroke-width="1" fill="#F8FDFF"></path>
+                        <rect id="矩形" stroke="none" fill="#FFFAF4" x="16.5" y="38.25" width="13.5" height="21" rx="6.75"></rect>
+                        <path d="M5.7500559,25.8822775 C5.75860055,29.3088567 6.7467162,33.7403821 8.71989671,39.1666285 C11.9712697,48.1079043 15.9047258,51.5875 24,51.5875 C29.8146853,51.5875 33.8894404,49.1905853 36.287661,44.3971251 C39.746469,35.9971628 40.4848429,28.6134233 38.5221105,22.2345429 C36.6438425,16.1301721 26.219302,14.6409591 7.17979704,18.0187012 L5.7500559,25.8822775 Z" id="路径-15" stroke="#777E8C" stroke-width="1" fill="#FFFAF4"></path>
+                        <path d="M9.75,7.67142344 C3.25,7.17142344 4.20121888e-16,11.4214234 0,20.4214234 C0,29.4214234 2,33.5964015 6,32.9463575 L8.25,20.4214234 L22.5,25.6714234 L25.5,20.4214234 C26.5,23.9214234 30,25.6714234 36,25.6714234 C37.7616498,25.6714234 40.2616498,26.9214234 43.5,29.4214234 L43.5,21.9214234 C45,15.9214234 41.75,9.92142344 33.75,3.92142344 C21.75,-5.07857656 10.5,3.92142344 6,6.17142344 C3,7.67142344 4.25,8.17142344 9.75,7.67142344 Z" id="路径-14" stroke="none" fill="#777E8C"></path>
+                        <polygon id="路径-17" stroke="none" fill="#777E8C" points="21 65.25 18.75 83.25 23.25 87.75 27.75 83.25 25.5 65.25 27 62.25 24 59.25 22.5 59.25 19.5 62.25"></polygon>
+                        <polygon id="路径-16" stroke="#777E8C" stroke-width="1" fill="#F8FDFF" points="23.25 59.1358832 32.2833028 51.75 35.2130227 55.1967455 26.4238632 62.0902365"></polygon>
+                        <polygon id="路径-16" stroke="#777E8C" stroke-width="1" fill="#F8FDFF" points="23.2130227 59.1358832 20.0391595 62.0902365 11.25 55.1967455 14.1797198 51.75"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

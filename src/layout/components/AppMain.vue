@@ -1,0 +1,20 @@
+<template>
+  <section>
+    <transition
+      name="fade-transform"
+      mode="out-in">
+      <router-view/>
+    </transition>
+  </section>
+</template>
+
+<script>
+export default {
+  name: 'AppMain',
+  computed: {
+    key() {
+      return this.$route.path
+    }
+  }
+}
+</script>

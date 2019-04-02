@@ -1,0 +1,24 @@
+// element 全局样式
+.el-button{
+  border-radius: 0;
+}
+.el-button--primary.is-plain.is-disabled,
+.el-button--primary.is-plain.is-disabled:active,
+.el-button--primary.is-plain.is-disabled:focus,
+.el-button--primary.is-plain.is-disabled:hover{
+  color: #fff;
+  background-color: #dcd8d8;
+  border-color: #dcd8d8;
+}
+.el-message-box__btns{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.el-message-box__btns button:nth-child(1){
+  margin-left: 10px;
+}
+
+.el-message-box__btns button:nth-child(2){
+  margin-left: none;
+}

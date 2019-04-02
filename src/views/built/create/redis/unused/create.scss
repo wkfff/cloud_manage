@@ -1,0 +1,41 @@
+/**
+ * @author:  lzc
+ * @date:    2019-03-12
+ * @desc:    xx样式
+ */
+.create-wrapper {
+  .content-wrapper {
+    display: flex;
+    .create-box {
+      flex: 1;
+    }
+    .view-box {
+      width: 320px;
+      height: calc(100vh - 160px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      margin-left: 20px;
+      background-color: #fff;
+      .title-text{
+        height: 50px;
+        line-height: 50px;
+        padding-left: 20px;
+        border-bottom: 1px solid $boderColor;
+      }
+      .info-box{
+        flex: 1;
+        overflow-y: auto;
+      }
+      .btn-box{
+        padding: 15px;
+        width: 100%;
+        border-top: 1px solid $boderColor;
+        text-align: center;
+        .confirm-btn{
+          width: 80%;
+        }
+      }
+    }
+  }
+}

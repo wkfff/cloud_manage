@@ -1,0 +1,208 @@
+#app {
+  // 主体区域
+  .main-container {
+    min-height: 100%;
+    transition: margin-left .28s;
+    margin-left: 0px;
+    position: relative;
+  }
+  // 侧边栏
+  .sidebar-container {
+    transition: width 0.28s;
+    width: 280px !important;
+    height: 100%;
+    position: fixed;
+    font-size: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+    box-shadow: none !important;
+    
+    .horizontal-collapse-transition {
+      transition: 0s width ease-in-out, 0s padding-left ease-in-out, 0s padding-right ease-in-out;
+    }
+    .el-scrollbar__bar.is-vertical {
+      right: 0px;
+    }
+    .scrollbar-wrapper {
+      overflow-x: hidden !important;
+      .el-scrollbar__view {
+        height: 100%;
+      }
+    }
+    .is-horizontal {
+      display: none;
+    }
+    a {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+    }
+    .svg-icon {
+      margin-right: 15px;
+      font-size: 20px;
+      margin-bottom: -2px;
+    }
+    .el-menu {
+      border: none;
+      height: 100%;
+      width: 100% !important;
+      background-color: $menuDefaultBg;
+    }
+  
+    .el-menu-item,
+    .el-submenu__title {
+      font-weight: normal;
+      height: 50px !important;
+      line-height: 50px !important;
+      background-color: $menuDefaultBg;
+    }
+    
+    /* 子菜单缩进 */
+    .nest-menu .el-menu-item{
+      padding-left: 55px !important;
+    }
+    
+    /* 选中状态菜单 */
+    .router-link-active {
+      .el-menu-item {
+        background-color: $menuCheckedBg !important;
+        color: $menuFontCheckedColor !important;
+        &:hover {
+          background-color: $menuCheckedBg !important;
+          color: $menuFontCheckedColor !important;
+        }
+      }
+    }
+    
+    // 修改鼠标悬浮在菜单上的hover颜色
+    .el-submenu__title:focus,
+    .el-submenu__title:hover {
+      background-color: $menuHoverBg;
+      color: $menuFontCheckedColor;
+      svg, i {
+        color: $menuFontCheckedColor;
+      }
+    }
+    
+    /* 展开菜单，title样式 */
+    .el-submenu.is-active{
+      .el-submenu__title{
+        .svg-icon, span, i {
+          color: $textRunning;
+          &:hover{
+            color: $textRunning !important;
+          }
+        }
+        &:hover{
+          color: $textRunning !important;
+        }
+      }
+    }
+    
+    /* group title隐藏 */
+    .el-menu-item-group__title{
+      padding: 0;
+      line-height: 0;
+      font-size: 0;
+    }
+    
+  }
+  
+  /* 隐藏菜单 */
+  .hideSidebar {
+    .sidebar-container {
+      width: 70px !important;
+    }
+    .submenu-title-noDropdown {
+      padding-left: 10px !important;
+      position: relative;
+      .el-tooltip {
+        padding: 0 15px !important;
+        text-align: center;
+        svg {
+          margin-right: 0 !important;
+        }
+      }
+    }
+    .el-submenu {
+      overflow: hidden;
+      & > .el-submenu__title {
+        padding: 0 15px !important;
+        text-align: center;
+        svg {
+          margin-right: 0 !important;
+        }
+        .el-submenu__icon-arrow {
+          display: none;
+        }
+      }
+    }
+    .el-menu--collapse {
+      .el-submenu {
+        & > .el-submenu__title {
+          & > span {
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            visibility: hidden;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  
+  //适配移动端
+  .mobile {
+    .main-container {
+      margin-left: 0px;
+    }
+    .sidebar-container {
+      transition: transform .28s;
+      width: 220px !important;
+    }
+    &.hideSidebar {
+      .sidebar-container {
+        transition-duration: 0.3s;
+        transform: translate3d(-220px, 0, 0);
+      }
+    }
+  }
+  .withoutAnimation {
+    .main-container,
+    .sidebar-container {
+      transition: none;
+    }
+  }
+}
+
+/* 收起状态时弹出框菜单样式 */
+.el-menu--vertical {
+  .el-menu-item, .el-submenu__title{
+    height: 50px;
+    line-height: 50px;
+  }
+  .el-menu-item-group__title{
+    line-height: 50px;
+    color: $textRunning;
+    font-size: 15px;
+    padding: 0;
+  }
+  .el-menu--popup-right-start {
+    margin-left: 0;
+  }
+  .nest-menu{
+    text-indent: 24px;
+  }
+  .router-link-active{
+    .el-menu-item{
+      background-color: $menuCheckedBg;
+      &:hover{
+        background-color: $menuCheckedBg !important;
+      }
+    }
+  }
+}

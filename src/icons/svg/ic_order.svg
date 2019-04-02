@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_订单</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1130.000000, -526.000000)">
+            <rect fill="#F0F2F7" x="0" y="0" width="1920" height="1120"></rect>
+            <rect id="矩形-copy-72" fill="#FFFFFF" fill-rule="nonzero" x="1110" y="516" width="790" height="594"></rect>
+            <g id="ic_订单-copy" transform="translate(1130.000000, 526.000000)" fill-rule="nonzero">
+                <circle id="椭圆形-copy-5" fill="#FFF3EA" cx="30" cy="30" r="30"></circle>
+                <path d="M40.5,22.5 L13.7309224,22.5 L19.5642558,37.5 L40.5,37.5 L40.5,22.5 Z" id="路径-19" stroke="#ED8B48"></path>
+                <rect id="矩形" stroke="#ED8B48" x="15.5" y="39.5" width="27" height="1" rx="0.5"></rect>
+                <rect id="矩形-copy-68" stroke="#ED8B48" x="16.5" y="27.5" width="24" height="1" rx="0.5"></rect>
+                <rect id="矩形-copy-69" stroke="#ED8B48" x="16.5" y="32.5" width="24" height="1" rx="0.5"></rect>
+                <rect id="矩形-copy-67" stroke="#ED8B48" x="38.5" y="14.5" width="4" height="1" rx="0.5"></rect>
+                <circle id="椭圆形" stroke="#ED8B48" cx="21.5" cy="43.5" r="2"></circle>
+                <circle id="椭圆形-copy-6" stroke="#ED8B48" cx="36.5" cy="43.5" r="2"></circle>
+                <rect id="矩形" stroke="#ED8B48" x="42.5" y="14.5" width="1" height="25" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

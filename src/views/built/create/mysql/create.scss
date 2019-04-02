@@ -1,0 +1,49 @@
+/**
+ * @author:  lzc
+ * @date:    2019-03-12
+ * @desc:    xx样式
+ */
+.create-wrapper {
+  .content-wrapper {
+    display: flex;
+    .create-box {
+      flex: 1;
+      margin: 20px;
+    }
+    .create-form-box{
+      padding: 0 10px;
+      background-color:#fff;
+    }
+    .view-box {
+      width: 320px;
+      height: calc(100vh - 280px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      margin: 20px;
+      margin-left: 0;
+      background-color: #fff;
+      .title-text{
+        height: 50px;
+        line-height: 50px;
+        padding-left: 20px;
+        border-bottom: 1px solid $boderColor;
+      }
+      .info-box{
+        flex: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      .btn-box{
+        padding: 15px;
+        width: 100%;
+        border-top: 1px solid $boderColor;
+        display: flex;
+        justify-content: space-between;
+        .confirm-btn{
+          width: 160px;
+        }
+      }
+    }
+  }
+}
