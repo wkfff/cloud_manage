@@ -1,6 +1,5 @@
 # cloudplatform_vue
 
-> A vue.js project created by Daniel.
 
 ## Build Setup
 
